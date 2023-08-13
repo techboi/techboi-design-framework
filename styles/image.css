@@ -1,0 +1,27 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  min-height: 40vh;
+
+  > div {
+    position: unset !important;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
+
+.image-border {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-border img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}

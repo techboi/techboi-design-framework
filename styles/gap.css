@@ -1,0 +1,34 @@
+.gap-silver {
+  width: 1px;
+  height: var(--size-silver);
+}
+
+.gap-xs {
+  width: 1px;
+  height: var(--size-xs);
+}
+
+.gap-s {
+  width: 1px;
+  height: var(--size-s);
+}
+
+.gap-m {
+  width: 1px;
+  height: var(--size-m);
+}
+
+.gap-l {
+  width: 1px;
+  height: var(--size-l);
+}
+
+.gap-xl {
+  width: 1px;
+  height: var(--size-xl);
+}
+
+.gap-xxl {
+  width: 1px;
+  height: var(--size-xxl);
+}

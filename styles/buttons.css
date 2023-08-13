@@ -1,0 +1,66 @@
+
+@keyframes buttonStartAnimation {
+  0% {
+    opacity: 0.0;
+    max-width: 42px;
+  }
+  100% {
+    opacity: 1;
+    max-width: 100%;
+  }
+}
+
+.button {
+  position: relative;
+  padding: var(--size-m) var(--size-m);
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: white;
+  z-index: 420;
+  background: transparent;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+.button:after {
+  transition: all 0.42s;
+  z-index: -1;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-brand);
+  border: 1px solid  transparent;
+  border-radius: var(--border-radius);
+  transform: skew(-4.2deg);
+}
+
+.button-white:after {
+  background-color: var(--color-white);
+}
+
+.button:hover:after {
+  cursor: pointer;
+  border-color: var(--color-brand);
+  border-color: var(--color-brand-accent);
+}
+
+.button-small {
+  padding: var(--size-s) var(--size-m);
+  font-size: 14px;
+}
+
+.button-white {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  font-size: 16px;
+}

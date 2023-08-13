@@ -1,0 +1,35 @@
+.container {
+  margin: auto;
+  max-width: var(--container-width);
+  padding: 0 var(--size-m);
+}
+
+.container-golden {
+}
+
+@media (min-width: 1000px) {
+  .container-golden {
+    max-width: 60%;
+  }
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+marquee {
+  padding: 1rem;
+
+}
+
+marquee span {
+  padding: 0 var(--size-l);
+}

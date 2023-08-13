@@ -1,0 +1,19 @@
+.size-xs {
+  font-size: var(--size-xs);
+}
+
+.size-s {
+  font-size: 14px;
+}
+
+.size-m {
+  font-size: var(--size-m);
+}
+
+.size-l {
+  font-size: var(--size-l);
+}
+
+.size-xl {
+  font-size: var(--size-xl);
+}

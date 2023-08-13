@@ -1,0 +1,43 @@
+.color-default {
+  color: var(--color-default);
+}
+
+.color-brand {
+  color: var(--color-brand);
+}
+
+.color-dark,
+.color-black {
+  color: var(--color-black);
+}
+
+.color-light,
+.color-white {
+  color: var(--color-white);
+}
+
+.background-brand {
+  background: var(--color-brand);
+}
+
+.background-brand-accent {
+  background: var(--color-brand-accent);
+}
+
+.background-default {
+  background: var(--color-default);
+}
+
+.background-background {
+  background: var(--color-background);
+}
+
+.background-light,
+.background-white {
+  background: var(--color-white);
+}
+
+.background-dark,
+.background-black {
+  background: var(--color-black);
+}

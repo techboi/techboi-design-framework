@@ -1,0 +1,29 @@
+.hide-mobile {
+  display: none;
+}
+
+/* TABLET */
+@media(min-width: 600px) {
+  .hide-mobile {
+    display: inherit;
+  }
+  
+  .hide-tablet {
+    display: none;
+  }
+}
+
+/* DESKTOP */
+@media(min-width: 1024px) {
+  .hide-mobile {
+    display: inherit;
+  }
+
+  .hide-tablet {
+    display: inherit;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+}

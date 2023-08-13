@@ -1,0 +1,83 @@
+a {
+  color: inherit;
+}
+
+/* MOBILE */
+h1 {
+  color: inherit;
+  margin-bottom: var(--size-m);
+  font-family: var(--font-title);
+  font-size: 42px;
+  line-height: 1.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* TABLET */
+@media(min-width: 600px) {
+  h1 {
+    font-size: 54px;
+  }
+}
+
+/* DESKTOP */
+@media(min-width: 1024px) {
+  h1 {
+    font-size: 54px;
+  }
+}
+
+/* TV */
+@media(min-width: 1400px) {
+  h1 {
+    font-size: 86px;
+  }
+}
+
+h2 {
+  color: inherit;
+  margin-bottom: var(--size-l);
+  font-family: var(--font-headline);
+  font-size: 25px;
+  line-height: 1.42em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: inherit;
+  margin-bottom: var(--size-s);
+  font-family: var(--font-headline);
+  text-decoration: underline;
+}
+
+p {
+  color: inherit;
+  margin-bottom: var(--size-s);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.4em;
+  max-width: 80vw;
+}
+
+ul {
+  margin-left: var(--size-l);
+  margin-bottom: var(--size-l);
+}
+
+ul li {
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+@media (min-width: 600px) {
+  p {
+    font-size: 20px;
+    line-height: 1.6em;
+  }
+
+  ul li {
+    font-size: 20px;
+    line-height: 1.6em;
+  }
+}
